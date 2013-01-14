@@ -240,7 +240,6 @@
     if (href.match(/#/)) {
       var url    = window.location.href.split('#')[0];
       var target = "#"+href.split('#')[1];
-      alert(target);
       if (target == '#') return
       $.facebox.reveal($(target).html(), klass)
       
